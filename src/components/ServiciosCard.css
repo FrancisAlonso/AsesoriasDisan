@@ -1,0 +1,31 @@
+.servicios-container {
+    margin-top: 100px; /* Ajusta este valor según sea necesario */
+    background-color: #f8d7da; /* Color rojo pastel */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.servicio-img {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.servicio-img:hover {
+    opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+    /* Para dispositivos de escritorio */
+    .md:flex-wrap > * {
+      flex: 1 0 50%; /* Para dividir los elementos en dos columnas */
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* Para dispositivos móviles */
+    .md:flex-wrap > * {
+      flex: 1 0 100%; /* Para que los elementos ocupen todo el ancho */
+      max-width: 100%;
+    }
+  }
+  
