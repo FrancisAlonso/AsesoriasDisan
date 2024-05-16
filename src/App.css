@@ -1,0 +1,114 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+}
+
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+main {
+    margin-top: 5px; /* Ajusta el espacio del contenido principal debajo del encabezado */
+    margin-bottom: 80px; /* Ajusta el espacio del contenido principal encima del pie de página */
+    padding: 20px;
+    width: 100%; /* Asegura que el contenido ocupe todo el ancho */
+    max-width: 1200px; /* Limita el ancho máximo del contenido */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    min-height: calc(100vh - 180px); /* Calcula el alto mínimo para ocupar el espacio restante */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Media queries para hacer la página responsive */
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles y tablets */
+    header {
+        padding: 0.5rem;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav button {
+        padding: 3px 8px;
+        font-size: 14px;
+    }
+
+    main {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 0.5rem;
+    }
+}
+
+/* Estilos para el botón de contacto */
+.btn-contacto {
+    background-color: #d075ab;
+    color: #000000;
+    border: 2px solid #521149;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px; /* Espacio adicional arriba del botón */
+}
+
+.btn-contacto:hover {
+    background-color: #d76bd3;
+    border-color: #9c2a89;
+}
