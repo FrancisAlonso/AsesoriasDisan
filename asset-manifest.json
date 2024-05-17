@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/asesoriasdisan/static/css/main.48859426.css",
+    "main.js": "/asesoriasdisan/static/js/main.b3503558.js",
+    "static/js/453.de2c44f3.chunk.js": "/asesoriasdisan/static/js/453.de2c44f3.chunk.js",
+    "static/media/servicio2.jpg": "/asesoriasdisan/static/media/servicio2.70495687af2e17b42a9c.jpg",
+    "static/media/servicio1.jpg": "/asesoriasdisan/static/media/servicio1.83357db467a520bde819.jpg",
+    "static/media/servicio4.jpg": "/asesoriasdisan/static/media/servicio4.3a9cc7de7a19c63f56ad.jpg",
+    "static/media/servicio3.jpg": "/asesoriasdisan/static/media/servicio3.3a3065b8ec3db0e6fd31.jpg",
+    "static/media/card4.jpg": "/asesoriasdisan/static/media/card4.f0355f22cd23a468cff3.jpg",
+    "static/media/card3.jpg": "/asesoriasdisan/static/media/card3.68fb0be8f40487fae48f.jpg",
+    "index.html": "/asesoriasdisan/index.html",
+    "main.48859426.css.map": "/asesoriasdisan/static/css/main.48859426.css.map",
+    "main.b3503558.js.map": "/asesoriasdisan/static/js/main.b3503558.js.map",
+    "453.de2c44f3.chunk.js.map": "/asesoriasdisan/static/js/453.de2c44f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48859426.css",
+    "static/js/main.b3503558.js"
+  ]
+}
