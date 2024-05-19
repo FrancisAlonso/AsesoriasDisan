@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
+
+nav {
+    margin-left: auto; /* Empuja el nav al final del header */
+}
+
+nav button {
+    margin: 0 10px;
+}
+
+.btn-contacto {
+    background-color: #007BFF; /* Ajusta el color según sea necesario */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-contacto:hover {
+    background-color: #0056b3;
+}

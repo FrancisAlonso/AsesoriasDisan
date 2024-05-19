@@ -1,5 +1,5 @@
-// Header.js
 import React from 'react';
+import './Header.css'; // Asegúrate de importar el archivo CSS para estilos
 
 const Header = ({ onMostrarVentana }) => {
     const abrirWhatsApp = () => {
@@ -7,7 +7,8 @@ const Header = ({ onMostrarVentana }) => {
     };
 
     return (
-        <header>
+        <header className="header">
+            <img src="./img/logo.jpg" alt="Logo" className="logo" />
             <h1>Asesorías de Contaduría y Auditoría</h1>
             <nav>
                 <button onClick={() => onMostrarVentana('inicio')}>Inicio</button>
